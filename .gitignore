@@ -1,0 +1,73 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+### ADD 
+/bin/
+/logs/
+*.log
+*.log*.gz
+/catalina.home*/
+
+
+### NPM
+node_modules/
+node_modules
+package-lock.json
+
+
+### NUXT
+.nuxt
+dist
+
+
+### IRO
+builds/*/*.java
+.builds/*.jar
+.builds-libs/*.jar
+builds/*.jar
+builds-libs/*.jar
+filemon/**
+!filemon/auto/.keep
+!filemon/auto_bak/.keep
+!filemon/man/.keep
+!filemon/man_bak/.keep
+
+*.bak
+.DS_Store
+*.zip
