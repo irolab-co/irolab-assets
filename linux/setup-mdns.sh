@@ -32,7 +32,7 @@ done
 echo "다음 도메인들이 등록됩니다:$FINAL_DOMAINS"
 
 # 3. 필수 패키지 및 방화벽 설정
-sudo dnf install -y python3-dbus avahi
+sudo dnf install -y python3-dbus avahi nss-mdns
 sudo systemctl enable --now avahi-daemon
 sudo firewall-cmd --permanent --add-service=mdns
 sudo firewall-cmd --reload
